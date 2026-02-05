@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-function-type */
 import axios from "axios";
 const api = axios.create({
-    baseURL: "http://localhost:8080/",
+    baseURL: "https://crm-back-ejpg.onrender.com/",
 });
 export const buscar = async (
     url: string,
